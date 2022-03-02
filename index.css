@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap");
+
+html,
+body {
+  background: #1f2937;
+  margin: 0;
+}
+
+#cont {
+  max-width: 550px;
+  margin: auto;
+  padding-top: 118px;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0px;
+  margin: 0;
+}
+
+#title-1 {
+  color: white;
+}
+#title-2 {
+  color: #4adf86;
+}
+
+h3 {
+  color: #d5d4d8;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#genpassword {
+  background-color: #10b981;
+  display: block;
+  width: 223px;
+  height: 42px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 51px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+#genpassword:active {
+  background-color: #0e9c6d;
+}
+
+#password-length {
+  background-color: #273549;
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 20px;
+  color: #4adf86;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: #202b3c;
+  font-size: 43px;
+  letter-spacing: -3px;
+}
+
+label {
+  color: #d5d4d8;
+  font-family: "Inter", sans-serif;
+}
+
+#input-cont {
+  border-top: 1px solid #2f3e53;
+  width: 520px;
+  padding-top: 35px;
+  margin-top: 20px;
+}
+
+#password-1,
+#password-2,
+#password-3,
+#password-4 {
+  background: #273549;
+  width: 211px;
+  height: 39px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 6px 0 0 6px;
+  text-align: center;
+
+  color: #4adf86;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+#password-2,
+#password-4 {
+  margin-left: 55px;
+}
+
+#copy {
+  background-color: #10b981;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+#copy:active {
+  background-color: #0e9c6d;
+}

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="cont">
+            <h1 id="title-1">Generate a</h1>
+            <h1 id="title-2">random password</h1>
+            <h3>Never use an insecure password again.</h3>
+
+            <button id="genpassword" onclick="genPassword()" ><img src="raio.png" alt=""> Generate passwords</button>
+            
+            <label>Number of characters</label><input type="number" value="8" min="6" max="15" id="password-length">
+            <div id="input-cont">
+                <input id="password-1" type="text" placeholder="..."><button type="button" id="copy" onclick="copyPasswordOne()"><img src="copy.png" alt=""></button>
+                <input id="password-2" type="text" placeholder="..."><button type="button" id="copy" onclick="copyPasswordTwo()"><img src="copy.png" alt=""></button>
+                <input id="password-3" type="text" placeholder="..."><button type="button" id="copy" onclick="copyPasswordThree()"><img src="copy.png" alt=""></button>
+                <input id="password-4" type="text" placeholder="..."><button type="button" id="copy" onclick="copyPasswordFour()"><img src="copy.png" alt=""></button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
